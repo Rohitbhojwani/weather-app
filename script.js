@@ -42,7 +42,7 @@ function showWeatherReport(weather)
      if(weather.message=="city not found")
      {
        
-        alert("You eneterd Wrong city Name");
+        alert("You entered wrong city name");
         search.value="";
           return;
      }
