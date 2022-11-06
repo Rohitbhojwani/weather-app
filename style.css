@@ -4,21 +4,20 @@
 }
 *
 {
-    font-family: 'Arima', cursive;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    font-size: 24px;
 }
 button
 {
     width: 160px;
-
     font-family: 'Times New Roman', Times, serif;
-        color:brown;
-        background: transparent;
-        border: none;
-        font-size: 30px;
-        position: relative;
-        
-        height: 40px;
+    color:brown;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    position: relative;
+    height: 40px;
 }
 span
 {
@@ -32,13 +31,19 @@ span
 }
 .card
 {
-        background-color:rgba(255, 255, 255, 0.349);
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        position: fixed;
-        border-radius: 20px;
+    /* background-color: #FF9A8B;
+background-image: linear-gradient(45deg, #FF9A8B 0%, #FF99AC 48%, #FF6A88 72%, #ffffff 98%); */
+background-color: #FAACA8;
+background-image: linear-gradient(45deg, #FAACA8 10%, #DDD6F3 64%, #ffffff 100%);
+
+
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    border-radius: 20px;
         
 }
 .temp-div
@@ -50,13 +55,13 @@ span
 .name
 {
     font-size: 42px;
-        color: orange;
+        color: #377D71;
 }
 .temp
 {
     font-size: 52px;
     color: goldenrod;
-  letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 .date
 {
@@ -76,13 +81,9 @@ input
     height: 40px;
     border-radius: 20px;
     outline: none;
- 
     font-size: 32px;
-    color: blueviolet;
+    color: #7895B2;
     text-align: center;
-  
-
-
 }
 .text
 {
@@ -91,15 +92,17 @@ input
 }
 body
 {
-    background: url("/images/hazy.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+    background: url("/images/default.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 input::placeholder
 {
-    color: rgb(76, 221, 237);
+    /* color: rgb(76, 221, 237); */
+    color: #7895B2;
+    font-weight: lighter;
     font-size: 23px;
     position: relative;
     left: 5px;
@@ -113,10 +116,11 @@ input::placeholder
      justify-content: center;
      padding: 3px;
      border-radius: 10px;
+    
 }
 .city-details
 {
-    background-color: rgba(255, 255, 255, 0.804);
+    background-color: #D8D8D8;
 }
 input
 {
@@ -132,5 +136,6 @@ input
 {
     margin-top: 2px;
     font-size: 32px;
-    color: palevioletred;
+    color: #7D9D9C;
+    font-family: 'Montserrat', sans-serif;
 }
