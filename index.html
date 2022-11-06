@@ -12,20 +12,29 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <!-- Fonts Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="card">
                 <div class="text">
-                 <input type="text" placeholder="Enter City Name"  name="" id="search">
+                 <input type="text" placeholder="City Name"  name="" id="search">
                  </div>
                  <div class="city-details">
-                 <h1 class="name" id="city-name">Nagpur</h1>
-                 <h1 class="date" id="city-date">10 August,2022 (Wednesday)</h1>
-                   <div class="temp-div"><span id="crt_temp">32°</span> </div>
-    
-                      <div class="tempminandmax"><span>Min:</span> <span id="min-temp">22°</span> <span>Max</span> <span id="max-temp">32°</span></div>
-                 <h1 id="cloud">Rainy</h1>
+                 <h1 class="name" id="city-name"></h1>
+                 <h1 class="date" id="city-date"></h1>
+                 <div class="temp-div"><span id="crt_temp"></span> </div>
+                    
+                 <div class="tempminandmax">
+                    <!-- <span>Min:</span>   -->
+                    <span id="min-temp"></span> 
+                     <!-- <span>Max</span>   -->
+                    <span id="max-temp">-</span>
+                 </div>
+                 <h1 id="cloud"> </h1>
                  </div>
             </div>
         </div>
